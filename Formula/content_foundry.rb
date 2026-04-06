@@ -1,7 +1,7 @@
 class ContentFoundry < Formula
   desc "Content Foundry CLI -- manage your content pipeline from the terminal"
   homepage "https://git.lbp.dev/content_foundry-cli"
-  url "ssh://git@100.98.15.106:23231/content_foundry-cli.git", tag: "v0.1.1"
+  url "ssh://git@100.98.15.106:23231/content_foundry-cli.git", tag: "v0.1.2"
   license :cannot_represent
 
   depends_on "go" => :build
