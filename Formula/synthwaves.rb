@@ -1,7 +1,7 @@
 class Synthwaves < Formula
   desc "synthwaves.fm CLI -- manage your music library from the terminal"
   homepage "https://synthwaves.fm"
-  url "ssh://git@100.98.15.106:23231/synthwaves-cli.git", tag: "v0.1.0"
+  url "https://github.com/leopolicastro/synthwaves.fm-cli.git", tag: "v0.1.0"
   license "MIT"
 
   depends_on "go" => :build
