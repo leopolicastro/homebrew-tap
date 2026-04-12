@@ -5,21 +5,21 @@
 class Synthwaves < Formula
   desc "synthwaves.fm CLI - manage your music library from the terminal"
   homepage "https://synthwaves.fm"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/leopolicastro/synthwaves.fm-cli/releases/download/v0.1.4/synthwaves_0.1.4_darwin_amd64.tar.gz"
-      sha256 "659edd050187a7e7bde5422cebdaf6306dee2df624027ce62517c0407a307dc4"
+      url "https://github.com/leopolicastro/synthwaves.fm-cli/releases/download/v0.1.5/synthwaves_0.1.5_darwin_amd64.tar.gz"
+      sha256 "b9d099d9c7d0a021016e765779a887b1e977df09fb6af9b66780d6a25556eb08"
 
       define_method(:install) do
         bin.install "synthwaves"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/leopolicastro/synthwaves.fm-cli/releases/download/v0.1.4/synthwaves_0.1.4_darwin_arm64.tar.gz"
-      sha256 "2534a5baf1002c8abbf682a3b6195b8db017a8ecd57d195a0e90e94ebdfd17d1"
+      url "https://github.com/leopolicastro/synthwaves.fm-cli/releases/download/v0.1.5/synthwaves_0.1.5_darwin_arm64.tar.gz"
+      sha256 "1528f335d585e8b5cb15c12c31a71f1766596eb9f518723350901e3144672211"
 
       define_method(:install) do
         bin.install "synthwaves"
@@ -29,8 +29,8 @@ class Synthwaves < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/leopolicastro/synthwaves.fm-cli/releases/download/v0.1.4/synthwaves_0.1.4_linux_amd64.tar.gz"
-      sha256 "9801899cb1e7333112a7f1f5d0f50ee54160ccf39ed50647b111186d9d403896"
+      url "https://github.com/leopolicastro/synthwaves.fm-cli/releases/download/v0.1.5/synthwaves_0.1.5_linux_amd64.tar.gz"
+      sha256 "c5327a9697e33657e7b822a013ddab60984a050cddd8a2d0ed3a653e2a77215d"
       define_method(:install) do
         bin.install "synthwaves"
       end
